@@ -1,0 +1,320 @@
+/*-------------- defolt css ---------------  */
+.d-flax{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.container{
+  max-width: 1140px;
+  margin: auto;
+}
+.spas{
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+ul{
+  list-style: none;
+}
+ul a{
+  text-decoration: none;
+  color: #FFFF;
+}
+.spas{
+  margin-bottom: 80px;
+}
+
+/* ------------- top info ----------------- */
+.topinfo{
+  background-color: #444444;
+  overflow: hidden;
+}
+.leftinfo ul li{
+  margin-right: 20px;
+  font-size: 14px;
+}
+.icon{
+  margin-right: 7px;
+}
+.rigthinfo ul li{
+  margin-left: 20px;
+}
+/* --------------- header ------------------ */
+
+.header{
+  overflow: hidden;
+}
+.logoimg{
+  margin: 15px 0;
+  width: 150px;
+}
+.menu_bar li a{
+  margin: 0 15px;
+  color: black;
+}
+.btn{
+  background-color: #5764EC;
+  color: white;
+  font-size: 16px;
+  border: 0;
+  margin-left: 30px;
+  padding: 15px 30px;
+}
+
+/* -------------- slider ------------------- */
+.slider{
+  overflow: hidden;
+}
+.sliderimg{
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+}
+.slider_text{
+  position: absolute;
+  top: 35%;
+  font-size: 36px;
+  color: #000000;
+}
+span{
+  color: #5764EC;
+}
+.slider_text p{
+  font-size: 20px;
+}
+.btn1{
+  background-color: #5764EC;
+  color: white;
+  font-size: 16px;
+  border: 0;
+  margin-right: 10px;
+  margin-top: 20px;
+  padding: 15px 30px;
+}
+
+/* -----------------------our services--------------------- */
+.name_our{
+  text-align: center;
+}
+.name_our h4{
+  color: #FF561D;
+}
+.nameour{
+  font-size: 36px;
+  font-weight: bold;
+  margin: -10px;
+}
+.ouricon{
+  font-size: 60px;
+  color: #FF561D;
+    
+}
+.ourwith{
+  width: 33.33%;
+  margin-top: 50px;
+  box-shadow: 0 0 7px gray;
+  border-radius: 5px;
+  padding: 20px 0;
+  margin-right: 30px;
+}
+.text_our{
+  padding-top: 0; 
+  padding-bottom: 10px;
+  padding-left: 40px;
+  padding-right: 20px;
+}
+.btn2{
+  text-align: center;
+}
+.btn2 button{
+  margin-top: 40px;
+  margin-bottom: 40px;
+  padding: 15px 30px;
+  background-color: #5764EC;
+  color: #FFFF;
+  font-size: 16px;
+  border: 0;
+}
+
+/* -------------------- IT SOLUTION COMPANY ----------------------------- */
+.solution{
+  padding: 90px 0;
+  background-color: #FBFBFB;
+}
+.companyinfo{
+  width: 50%;
+}
+.infolast{
+  font-weight: bold;
+  margin-top: 45px;
+  margin-left: 37px;
+  font-size: 18px;
+}
+.line::before
+{
+  content: '';
+  position: absolute;
+  width: 2px;
+  height: 90px;
+  background-color: #5764EC;
+  margin-top: 24px;
+}
+.companyimg{
+  width: 90%;
+  padding-left: 40px;
+  text-align: center;
+  border-radius: 5px;
+}
+/* ------------------------ TECHSOFT SO DIFFERENT -------------------------- */
+.heading{
+  margin-top: 100px;
+
+}
+.techsoftmain{
+  margin-top: 60px;
+}
+.techsofticon{
+  padding: 0 5px;
+  /* width: 33.33%; */
+}
+.imgicon img{
+  width: 70px;
+  margin-top: -40px;
+}
+.iconname{
+  margin-left: 50px;
+}
+
+/* ------------------------ FEATURED WORKS ---------------------------------- */
+.featuredname{
+  padding: 40px 0;
+  background-color: #FBFBFB;
+  margin-bottom: 90px;
+}
+.namework{
+  margin-bottom: 30px;
+  font-size: 36px;
+  font-weight: bold;
+}
+.workimage img{
+  width: 100%;
+  height: 100%;
+ margin-top: 10px; 
+}
+.imagework{
+  margin: 10px ;
+}
+/* ------------------------ OUR LEADERSHIP --------------------------------- */
+.ourdiskri{
+  color: #5764EC;
+  text-align: center;
+  margin: -15px;
+  margin-bottom: 50px;
+}
+/* ------------------------ OUR CLIENT SAY ------------------------------------ */
+.client{
+  margin: 10px;
+}
+.clienimage img{
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-top: 20px;
+}
+.clienttext{
+  box-shadow: 0 0 10px gray;
+  padding: 10px;
+  border-radius: 5px;
+}
+.flax{
+  display: flex;
+}
+.clientname{
+  margin-left: 15px;
+  margin-top: 20px;
+}
+
+/* ------------------- OUR LATEST BLOG ---------------------------------- */
+.latestblog{
+  margin-top: 40px;
+}
+.main_letest{
+  margin-top: 40px;
+}
+.imagework{
+  background-color: #FFFF;
+}
+.blogtext{
+  margin-left: 20px;
+}
+.blogmore{
+  color: gray;
+  padding-bottom: 20px;
+}
+.blogbtn{
+  margin-left: 32.5%;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  font-size: 16px;
+  border: 0;
+}
+.blogbtn button{
+  margin: 0 10px;
+  text-align: center;
+}
+/* ----------------------------------- --------------------------- */
+.backimage{
+  background-image: url(./images/banner-bg.jpg);
+  background-size: cover;
+  background-position: 100%;
+  color: white;
+}
+.text_image{
+  text-align: center;
+  padding: 40px 0;
+}
+.image4 img{
+  width: 200px;
+  margin: 50px 0;
+}
+/* ---------------------------------------------------------- */
+.last_info{
+  padding: 100px 0;
+  background-color: #25262F;
+  color: white;
+}
+.mainfooter{
+  width: 25%
+}
+.mainfooter h3{
+  margin-left: 35px;
+}
+.footerlo{
+  width: 137px;
+  height: 46px;
+  color: white;
+}
+.icon a{
+  margin: 0 15px;
+  border: 1px solid white;
+  padding: 4px 6px;
+  border-radius: 5px;
+}
+
+.midalfooter{
+  color: white;
+}
+.email{
+  padding: 10px;
+}
+.btn7{
+  font-size: 12px;
+  background-color: #5764EC;
+  color: #FFFF;
+  border: 0;
+}
+.lasttext{
+  background-color: #000000;
+  color: #FFFF;
+  padding: 10px 0;
+}
+
